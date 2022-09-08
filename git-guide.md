@@ -1,4 +1,4 @@
-# Hello
+## Git basic commands
 ### This is markdown file
 1. git commit
 2. git push
