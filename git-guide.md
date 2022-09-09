@@ -21,7 +21,11 @@
  + **fetch**: gets all the change history of a tracked branch/repo, tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository.
  + **merge**: Incorporates changes from the named commits into the current branch.
  +  **pull**: does both merge and fetch together and brings the copy of the remote directory changes into the local repository
- + **branch**:we have moves current workspace from the master branch, to the new branch
+ + **branch**:we have moves current workspace from the master branch, to the new branch.
++    git branch:List all of the branches in your repository. 
++    git branch <branch>: creates a new branch.
++    git branch -D <branch>: Deletes branches even if they are unmarged things
+
  + **checkout**: is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
 **init**
 **remote**
