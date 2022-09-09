@@ -9,7 +9,7 @@
       3. **git clone --sparse**: Instead of populating the working directory with all of the files in the current commit recursively, only populate the files present in the root directory. 
  + **add**: git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit
  + **rm**: used to remove objects such as computer files, directories and symbolic links from file systems
- +     ![Alt text](/relative/path/to/Screen Shot 2022-09-08 at 10.46.33 PM.png?raw=true "Optional Title") 
+ +     ![image](images/rm.png) 
 
 
  + **
