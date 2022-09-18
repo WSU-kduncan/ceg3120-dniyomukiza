@@ -45,6 +45,11 @@ async def on_message(message):
     ]
 
 
+    cool_anime = ['https://tenor.com/view/kitty-forman-debra-jo-rupp-laugh-meme-hysterical-laughter-lol-gif-24893555',
+                  'https://tenor.com/view/john-jonah-jameson-lol-laughing-hysterically-laughing-out-loud-funny-gif-17710543',
+                  'https://tenor.com/view/lololol-laugh-laugh-loud-laughing-cute-gif-18949907',
+                 
+            ]
     dictionary = [
             'Was nice to have you!',
             'Have a nice day!',
@@ -78,5 +83,11 @@ async def on_message(message):
         await message.channel.send(response)
     if message.content == 'how old are you?':
         response = random.choice(personal_questions)
+        await message.channel.send(response)
+
+    if message.content == 'sad':
+         await message.add_reaction('\U0001F972')
+    if message.content == 'funny':
+        response = random.choice(cool_anime) 
         await message.channel.send(response)
 client.run(TOKEN)
