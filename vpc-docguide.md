@@ -7,4 +7,5 @@ VPC stands for virtual private network. Metaphorically,it is your private room o
   
   
   
-2. ### **CREATE SUBNETS:**          
+2. ### **CREATE SUBNETS:**   
+     A subnet is a range of IP addresses in your VPC. You can have one or many subnets in your vpc. Also, if you can have public and private subnet depending on use.       
