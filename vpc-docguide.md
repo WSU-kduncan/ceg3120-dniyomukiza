@@ -7,7 +7,7 @@ VPC stands for virtual private network. Metaphorically,it is your private room o
   
   
   
-2. ### **CREATE SUBNETS:**   
+1. ### **CREATE SUBNETS:**   
      A subnet is a range of IP addresses in your VPC. You can have one or many subnets in your vpc. Also, if you can have public and private subnet depending on use.    
      
      **To add a subnet to your VPC**
@@ -77,7 +77,7 @@ If a subnet is associated with a route table that does not have a route to an in
   
     ![](proj2/instance.PNG)
 
-Now let's check if we can remotely connect to the instance we have created through the terminal ![](..proj2/success.PNG)
+Now let's check if we can remotely connect to the instance we have created through the terminal ![](proj2/success.PNG)
 
 Can we switch users? of course yes. This what you need to do:
 
@@ -89,6 +89,6 @@ Can we switch users? of course yes. This what you need to do:
    5. Edit the content of those files and replace user with names you want to use.
 
 You will need to reboot the system if you want to save changes permanently. **Heads up!** You may have trouble SSHing your aws instance after a reboot. You need go back to AWS management console and manually restart your instance.
-![](..proj2/new%20user.PNG)
+![](proj2/new%20user.PNG)
 
 END.
