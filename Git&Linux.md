@@ -71,11 +71,13 @@ __MERGE CONFLICT__: This error arises when local repositories does not have late
 *  ls -lah: lists files and folder and permissions
 *  chmod filename: changes file permissions:
      
-     754 MEANS 7 for user, 5 for group and 4 for others
+        754 MEANS 7 for user, 5 for group and 4 for others
+       
              4 - stands for read
              2 - stands for write
              1 - stands for execute
-     In this example user is allowed to do everything, user can read and execute while other can just read
+            
+            In this example user is allowed to do everything, user can read and execute while other can just read
 * chown username file/folder: changes owner of the file/folder
 * addgroup groupname;creates new group
 * chgrp groupname file/folder:changes the group of file/folder
