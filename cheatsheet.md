@@ -26,10 +26,6 @@ __git status__ Gives a hint of the next steps
 
 __.gitignore__ File holding files and folder you want to ignore(git status will no longer show the as need to be added)
 __git diff__ Checks the unstaged changes
-__git reset__ Resets staging area to the last commit
-__git log__ Shows commit history
-__git gc__ Cleans up uncessary files and optimize the local repository
-__git branch -d branchname__ Deletes a branch
 
 __git config --global user.name "your name"__ This command saves your username
 
@@ -47,6 +43,13 @@ __git merge branchname__ Merge content of current branch to another branch you s
 __git rm filename__ Removes files from tracking and from disk
 
 __git rm --cached filename__ Removes files from tracking but leaves it on the disk
+__git reset__ Resets staging area to the last commit
+
+__git log__ Shows commit history
+
+__git gc__ Cleans up uncessary files and optimize the local repository
+
+__git branch -d branchname__ Deletes a branch
 
 __MERGE CONFLICT__: This error arises when local repositories does not have latest updates from remote repo or the other way around. Avid this by pulling from remote
 __git config --global pull.ff true__ It attempts to fast forward your branch to be up to date with your remote before applying your local commits. It will fix merging conflict
