@@ -66,8 +66,8 @@ __git config --global pull.ff true__ It attempts to fast forward your branch to 
 * ls: lists all the files
 * pwd: prints current directory
 * cd: changes directories
-* rm "File Name": will remove any file that has special characters or keyworks in its name
-* rm filename newfilename : renames old file to new file
+* rm "file name": will remove any file that has special characters or keyworks in its name
+* mv filename newfilename : renames old file to new file
 * cat: prints file contents
 * sudo: command after sudo has elevated priviledges
 *  adduser username: creates new user
