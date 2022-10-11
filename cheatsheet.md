@@ -49,7 +49,7 @@ __git rm filename__ Removes files from tracking and from disk
 __git rm --cached filename__ Removes files from tracking but leaves it on the disk
 
 __MERGE CONFLICT__: This error arises when local repositories does not have latest updates from remote repo or the other way around. Avid this by pulling from remote
-
+__git config --global pull.ff true__ It attempts to fast forward your branch to be up to date with your remote before applying your local commits. It will fix merging conflict
        .GIT FOLDER
 
     
@@ -66,6 +66,8 @@ __MERGE CONFLICT__: This error arises when local repositories does not have late
 * ls: lists all the files
 * pwd: prints current directory
 * cd: changes directories
+* rm "File Name": will remove any file that has special characters or keyworks in its name
+* rm filename newfilename : renames old file to new file
 * cat: prints file contents
 * sudo: command after sudo has elevated priviledges
 *  adduser username: creates new user
