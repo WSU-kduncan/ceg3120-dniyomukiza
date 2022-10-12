@@ -40,6 +40,9 @@ __git checkout branchname__ Switches to another branch
 
 __git merge branchname__ Merge content of current branch to another branch you specified
 
+NOTE:If you made changes to a new branch, commit them and push them,  branch to main 
+then run 'git merge newbranchname' 
+
 __git rm filename__ Removes files from tracking and from disk
 
 __git rm --cached filename__ Removes files from tracking but leaves it on the disk
