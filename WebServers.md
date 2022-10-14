@@ -14,3 +14,9 @@ INSTALL,CONTROLSERVICES,LOGS,FIREWALL CONFIGURATION
 +  __sudo netstat -tunlp__: checks for listening ports and services
 +   __sudo netstat -tunlp | grep :22__: If you wanna narrow down to a specific service(ssh in this example)
 +    __curl ipinfo.io__: will display your public ip with location,zipcode and timezone
+
+## Proxies
++ forward proxy: Does not guarantee encryption, access geo restricted content, ensures anonymity(hides real ip), nat before routers had built in NAT
++ 
++ reverse proxy: distributes requests among backend servers
++ clients attempts to connect to service(80/website), dNS look up tofigure out if domain exists in IP, load balancer,backend server
