@@ -90,11 +90,7 @@ Resources:
       VpcId: !Ref VPC
       GroupDescription: Enable SSH access via port 22 and open all insternal ports.
       SecurityGroupIngress:
-        - IpProtocol: tcp
-          FromPort: '22'
-          ToPort: '22'
-          CidrIp: !Ref SSHLocation
-
+       
         - IpProtocol: tcp
           FromPort: '22'
           ToPort: '22'
