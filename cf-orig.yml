@@ -263,3 +263,17 @@ Resources:
             hostnamectl set-hostname  quizserver && \
             
             reboot
+            
+            #frontend myproxy
+         #bind *:80
+         #default_backend namep
+#backend namep
+        #balance roundrobin
+        #mode http
+        #server vm1 10.0.1.10:80 check
+        #server vm2 10.0.1.20:80 check
+Host photoserv 
+  HostName 10.0.1.10 
+  User Didier
+  Port 22
+  IdentityFile /home/ubuntu/key
