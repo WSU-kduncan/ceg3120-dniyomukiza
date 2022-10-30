@@ -1,22 +1,24 @@
-### PROJECT 4
+
 ### Connecting via SSH Config file
 1. I used **cd .ssh** command and created a config file there
-2. Description on how file is configured? 
++  Description on how file is configured
      + Create the name of your host
      + For HostName variable set your instance private IP as value
      + For User you can name it any how
      + 22 will be port value
      + IdentityFile key must have the path of the ssh key as value
+  
+2. ![](Screenshot%202022-10-30%20at%206.56.25%20PM.png)
 
-Here is how the file looks: 
+Here is how my config file looks like: 
 
-            Host formserver 
+            Host form 
                 HostName 10.0.1.10
                 User ubuntu
                 Port 22
                 IdentityFile ~/pkey.pem
             
-            Host quizserver 
+            Host quiz 
             HostName 10.0.1.20
             User ubuntu
             Port 22
@@ -41,7 +43,7 @@ mode is http
 then I mapped each server name with corresponding private IP.
 + sudo service haproxy reload or sudo systemctl restart haproxy will restar service after configuration change.
 
-1. WEBSERVER CONFIGURATION &DOCUMENTATION 
+4. WEBSERVER CONFIGURATION &DOCUMENTATION 
    + **sudo apt-get install apache2** to install apache2
    + **apache2.config** located at **/etc/apache2** is located in this folder as all configuration files apache will need during start up reside here. I left it as is. It contains global configurations,pid file,timeout settings,maxkeepAliveRequests,etc 
    + I modified **index.html** file located at **/var/www/html**
@@ -52,7 +54,7 @@ then I mapped each server name with corresponding private IP.
   https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
 
 
-SCREENSHOTS
+5. CONTENT BALANCING
 ![](Screen%20Shot%202022-10-26%20at%202.52.45%20PM.png)
 
 
