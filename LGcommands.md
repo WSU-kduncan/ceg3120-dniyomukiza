@@ -98,3 +98,5 @@ __git config --global pull.ff true__ It attempts to fast forward your branch to 
 * whoami: returns username you are using
 * id: returns all the groups you are a member of
 * sudo su: switches to root
+* mv bak/* . : Moves all files in subdirectory bak to current directory
+* mv *.pdf  subfolder: Moves all pdf  files in current directory to subdirectory
