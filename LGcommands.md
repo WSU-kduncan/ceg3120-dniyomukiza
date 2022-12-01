@@ -100,3 +100,4 @@ __git config --global pull.ff true__ It attempts to fast forward your branch to 
 * sudo su: switches to root
 * mv bak/* . : Moves all files in subdirectory bak to current directory
 * mv *.pdf  subfolder: Moves all pdf  files in current directory to subdirectory
+* sudo scp -rp -i ./pkey.pem ~/foldertocopy  ubuntu@3.223.52.231:~/
